@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cardSection {
+    padding: 1px 20px 1px 1px;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    background-color: yellow;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    position: relative;
+}
+
+h1 {
+
+    padding: auto;
+    border-bottom: 0.5px solid rgb(175, 168, 168);
+}
+
+.price {
+    margin-top: 10px;
+
+    background-color: rgb(208, 243, 243);
+}
+
+.info {
+    margin: 5px;
+    text-align: justify;
+}
+
+.card-footer {
+    position: absolute;
+    right: 0cm;
+    left: 0cm;
+    bottom: 0;
+
+
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    color: slateblue;
+}
+
+btn:focus {
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+    .cardSection {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+
+
+
+}
